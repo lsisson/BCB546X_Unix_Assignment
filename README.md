@@ -2,7 +2,7 @@
 
 ## File Inspection
 
-###Snp_Position
+### Snp_Position
 
 * Looking at the top of the `snp_position.txt` file using
 	`head`
@@ -59,7 +59,7 @@ zmm3.4   3527  9        16966348   zmm3          Y09301    zmm3   candidate  101
 * In summary: There are 984 lines, 15 columns, and the file size is 84Kb.
 
 
-###Fang_Genotypes
+### Fang_Genotypes
 
 * Looking at the top of the `fang_et_al_genotypes.txt` file using `head`
 
@@ -115,7 +115,7 @@ CU0202  Zmm-IL-Yu796_NS_f  ZMMIL  C/C  A/A  T/T  G/G  C/C  C/C  ?/?  G/G  C/C  G
 * This can be done by using a combination of `cut | sort | uniq`
 
 	```
-	lyles-mbp-2:Raw Artanis$ cut -f 3 fang_et_al_genotypes.txt |sort| uniq -c
+	cut -f 3 fang_et_al_genotypes.txt |sort| uniq -c
    1 Group
   22 TRIPS
   15 ZDIPL
